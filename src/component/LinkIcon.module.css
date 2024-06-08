@@ -1,0 +1,15 @@
+/* Link.module.css */
+.link {
+  display: flex;
+  align-items: center;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: rgb(241 187 211);
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
