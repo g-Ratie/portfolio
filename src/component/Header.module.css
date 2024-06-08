@@ -1,0 +1,13 @@
+/* Header.module.css */
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem 1.5rem;
+}
+
+.iconLinkContainer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
