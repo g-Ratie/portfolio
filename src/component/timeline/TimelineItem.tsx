@@ -17,7 +17,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
   return (
     <div className={styles.container}>
       <div className={styles.timeline}>
-        <div className={styles.circle} style={{ marginBottom: lastItem ? '0' : 'auto' }} />
+        <div className={lastItem ? styles.circleDotted : styles.circle} />
       </div>
       <div className={styles.details}>
         <div className={styles.title}>{title}</div>

@@ -16,18 +16,36 @@
 .circle {
   width: 12px;
   height: 12px;
+  margin-top: 8px;
   background-color: blue;
   border-radius: 50%;
 }
 
 .circle::before {
   position: absolute;
-  top: 100%; /* 円の底からスタート */
   left: 50%;
   width: 2px;
-  height: calc(100% - 12px + 20px); /* containerの高さから円の高さを引いてマージンを加える */
+  height: calc(100% + 20px);
   content: '';
   background-color: blue;
+  transform: translateX(-50%);
+}
+
+.circleDotted {
+  width: 12px;
+  height: 12px;
+  margin-top: 8px;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.circleDotted::before {
+  position: absolute;
+  left: 55%;
+  width: 2px;
+  height: calc(100% + 20px);
+  content: '';
+  border-left: 2px dotted blue;
   transform: translateX(-50%);
 }
 

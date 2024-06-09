@@ -16,7 +16,7 @@ const Timeline = () => {
       />
       <TimelineItem
         title="Pull request"
-        description="You've submitted a pull request Fix incorrect notification message (#187)"
+        description="You've submitted a pull request"
         time="34 minutes ago"
       />
       <TimelineItem
