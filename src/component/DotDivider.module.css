@@ -1,0 +1,22 @@
+.dotContainer {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.dot {
+  display: inline-block;
+  height: 0.5rem;
+  background-color: #794255a1;
+  border-radius: 9999px;
+}
+
+.largeDot {
+  width: 3rem;
+}
+
+.smallDot {
+  width: 0.5rem;
+  background-color: #ebb6ce;
+}
