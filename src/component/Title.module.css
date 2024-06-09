@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.title {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
