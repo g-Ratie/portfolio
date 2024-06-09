@@ -1,0 +1,25 @@
+.main {
+  max-width: 768px;
+  padding: 2rem 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: auto;
+}
+
+@media (width >= 768px) {
+  .main {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+
+@media (width >= 1024px) {
+  .main {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.verticalSpacingLarge > * + * {
+  margin-top: 2rem;
+}
