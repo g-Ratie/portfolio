@@ -11,6 +11,7 @@ const myActivity = {
       content:
         'Webサイト上の日時から1タップでGoogleカレンダーに予定を追加するChrome拡張機能を作成しました。',
       date: '2024/04',
+      isprize: true,
     },
     {
       title: 'サポーターズ主催 技育CAMPハッカソン@東京',
@@ -23,6 +24,7 @@ const myActivity = {
       content:
         '大学のシラバスを検索するRAGアプリケーションについてのLTを行いました。その結果、賞をいただくことができました!',
       date: '2023/08',
+      isprize: true,
     },
     {
       title: 'Open Hack U 2022 Spring ONLINE',
