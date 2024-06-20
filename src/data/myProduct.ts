@@ -6,7 +6,7 @@ const cardsData = [
     githubUrl: 'http://github.com',
     title: 'VR授業スタジオ',
     description:
-      'コロナ禍の中で「より良い教え合い」を求めて試作したVR授業プラットフォーム。これをテーマに全国高校生 MY PROJECT AWARD 2020 関東Summitに出場しました。',
+      'コロナ禍の中でオンライン授業の問題点の解決を目指して試作したVR授業プラットフォーム。これをテーマに全国高校生 MY PROJECT AWARD 2020 関東Summitに出場しました。',
     tag: {
       title: '個人開発',
       color: '#FF5733',
