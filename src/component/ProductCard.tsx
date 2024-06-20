@@ -15,34 +15,51 @@ export type ProductCardProps = {
   tag: Tag;
 };
 
-export const ProductCard = ({ image, title, description, tag }: ProductCardProps) => {
+export const ProductCard: React.FC<ProductCardProps> = ({
+  image,
+  githubUrl,
+  title,
+  description,
+  tag,
+}) => {
   return (
     <Card withBorder radius="md" p="md" className={classes.card}>
-      <Card.Section>
-        <Image src={image} alt={title} height={180} />
-      </Card.Section>
+      <div>
+        <Card.Section>
+          <Image src={image || 'https://via.placeholder.com/180'} alt={title} height={180} />
+        </Card.Section>
 
-      <Card.Section className={classes.section} mt="md">
-        <Group justify="apart">
-          <Text fz="lg" fw={500}>
-            {title}
+        <Card.Section className={classes.section} mt="md">
+          <Group justify="apart">
+            <Text fz="lg" fw={500}>
+              {title}
+            </Text>
+            <Badge size="sm" variant="light" color={tag.color}>
+              {tag.title}
+            </Badge>
+          </Group>
+          <Text fz="sm" mt="xs" style={{ minHeight: '80px' }}>
+            {description}
           </Text>
-          <Badge size="sm" variant="light" color={tag.color}>
-            {tag.title}
-          </Badge>
-        </Group>
-        <Text fz="sm" mt="xs">
-          {description}
-        </Text>
-      </Card.Section>
+        </Card.Section>
+      </div>
 
-      <Group mt="xs">
+      <Group mt="xs" style={{ justifyContent: 'flex-end' }}>
         <Button radius="md" style={{ flex: 1 }}>
           Show details
         </Button>
-        <ActionIcon variant="default" radius="md" size={36}>
-          <FaGithub />
-        </ActionIcon>
+        {githubUrl && (
+          <ActionIcon
+            component="a"
+            href={githubUrl}
+            target="_blank"
+            variant="default"
+            radius="md"
+            size={36}
+          >
+            <FaGithub />
+          </ActionIcon>
+        )}
       </Group>
     </Card>
   );
