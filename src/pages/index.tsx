@@ -1,13 +1,9 @@
 import React from 'react';
 import Layout from '../layouts/Layout';
-import Title from '../component/Title';
+import Profile from '../component/Profile';
 
 const App: React.FC = () => {
-  return (
-    <Layout>
-      <Title title="Home" />
-    </Layout>
-  );
+  return <Profile />;
 };
 
 export default App;
