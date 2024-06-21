@@ -9,7 +9,7 @@ const cardsData = [
       'コロナ禍の中でオンライン授業の問題点の解決を目指して試作したVR授業プラットフォーム。これをテーマに全国高校生 MY PROJECT AWARD 2020 関東Summitに出場しました。',
     tag: {
       title: '個人開発',
-      color: '#FF5733',
+      color: '#33C1FF',
     },
   },
   {
@@ -41,7 +41,7 @@ const cardsData = [
       'サークル入退室などを管理するためのDiscord Bot。サークルの活動場所であるオフィスの入室・退室を記録するために、サークルのDiscord上で動くBot(3代目)',
     tag: {
       title: '個人開発',
-      color: '#28A745',
+      color: '#33C1FF',
     },
   },
   {
@@ -52,7 +52,7 @@ const cardsData = [
       'フルスタック開発の勉強として、前に開発したオセロをオンライン対戦できるように改良しました。',
     tag: {
       title: '個人開発',
-      color: '#FFC300',
+      color: '#33C1FF',
     },
   },
   {
@@ -62,7 +62,7 @@ const cardsData = [
     description: '大学のシラバスを検索するRAGアプリケーション',
     tag: {
       title: '個人開発',
-      color: '#FF5733',
+      color: '#33C1FF',
     },
   },
   {
@@ -73,7 +73,7 @@ const cardsData = [
       'エアロバイクと連動した、高齢者向けバーチャルサイクリングデバイスで、企業様と共同開発した作品です',
     tag: {
       title: '共同開発',
-      color: '#FF5733',
+      color: '#28A745',
     },
   },
   {
