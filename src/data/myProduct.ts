@@ -2,7 +2,7 @@
 
 const cardsData = [
   {
-    image: 'https://picsum.photos/500?random=33',
+    image: '/no-image.jpg',
     githubUrl: 'http://github.com',
     title: 'VR授業スタジオ',
     description:
@@ -45,7 +45,7 @@ const cardsData = [
     },
   },
   {
-    image: 'https://picsum.photos/500?random=55',
+    image: '/no-image.jpg',
     githubUrl: 'https://github.com/g-Ratie/Network-reversi',
     title: 'オンラインオセロ',
     description:
