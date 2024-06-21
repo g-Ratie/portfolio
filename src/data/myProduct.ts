@@ -13,7 +13,7 @@ const cardsData = [
     },
   },
   {
-    image: 'https://picsum.photos/500?random=22',
+    image: '/Othello.png',
     githubUrl: null,
     title: 'オセロ',
     description: 'React学習のために制作したオセロです。オセロの基本的な機能を実装しました。',
@@ -23,7 +23,7 @@ const cardsData = [
     },
   },
   {
-    image: 'https://picsum.photos/500?random=44',
+    image: '/Minesweeper.png',
     githubUrl: '',
     title: 'マインスイーパー',
     description:
@@ -34,7 +34,7 @@ const cardsData = [
     },
   },
   {
-    image: 'https://picsum.photos/500?random=11',
+    image: '/INIAD-ts.png',
     githubUrl: null,
     title: 'INIAD.ts 入退室管理システム',
     description:
@@ -56,7 +56,7 @@ const cardsData = [
     },
   },
   {
-    image: 'https://picsum.photos/500?random=66',
+    image: '/syllabus.png',
     githubUrl: '',
     title: 'しらばすチャット(仮)',
     description: '大学のシラバスを検索するRAGアプリケーション',
@@ -66,7 +66,7 @@ const cardsData = [
     },
   },
   {
-    image: 'https://picsum.photos/500?random=77',
+    image: '/no-image.jpg',
     githubUrl: null,
     title: 'リハビリ施設向けサイクリングデバイス',
     description:
@@ -77,7 +77,7 @@ const cardsData = [
     },
   },
   {
-    image: 'https://picsum.photos/500?random=77',
+    image: '/AuralRx.png',
     githubUrl: null,
     title: 'AuralRx',
     description:
@@ -88,7 +88,7 @@ const cardsData = [
     },
   },
   {
-    image: 'https://picsum.photos/500?random=77',
+    image: '/no-image.jpg',
     githubUrl: null,
     title: 'One tap Schedule',
     description:
