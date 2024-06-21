@@ -23,7 +23,7 @@ const cardsData = [
     },
   },
   {
-    image: '/Minesweeper.png',
+    image: '/Minesweeper-normal.png',
     githubUrl: '',
     title: 'マインスイーパー',
     description:
