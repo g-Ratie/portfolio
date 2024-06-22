@@ -11,7 +11,7 @@ const Profile = () => {
         <img src="https://github.com/g-ratie.png" alt="Profile" className={styles.profileImage} />
         <DotDivider />
         <h3 className={styles.heading}>I&apos;m ratie!</h3>
-        <span className={styles.description}>つくったものとかやったこととか</span>
+        <span className={styles.description}>つくったもの・やったこととか</span>
         <div className={styles.social}>
           <a href="https://twitter.com/ratie_iniad" className={styles.socialLink}>
             <FaTwitter size={24} />
