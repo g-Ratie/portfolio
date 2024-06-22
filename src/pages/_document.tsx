@@ -7,7 +7,7 @@ export default function Document() {
       <Head>
         <title>ポートフォリオ</title>
         <meta name="robots" content="noindex" />
-        <ColorSchemeScript defaultColorScheme="light" />
+        <ColorSchemeScript forceColorScheme="light" />
         <link rel="icon" href="favicon.ico" />
       </Head>
       <body>
