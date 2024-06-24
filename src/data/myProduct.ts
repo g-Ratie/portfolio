@@ -14,7 +14,7 @@ const cardsData = [
   },
   {
     image: '/Othello.png',
-    githubUrl: null,
+    githubUrl: 'https://github.com/g-Ratie/Othello',
     title: 'オセロ',
     description: 'React学習のために制作したオセロです。オセロの基本的な機能を実装しました。',
     tag: {
@@ -24,7 +24,7 @@ const cardsData = [
   },
   {
     image: '/Minesweeper-normal.png',
-    githubUrl: '',
+    githubUrl: 'https://github.com/g-Ratie/Minesweeper',
     title: 'マインスイーパー',
     description:
       'React学習のために制作したマインスイーパーです。マインスイーパーの基本的な機能を実装しました。',
@@ -35,7 +35,7 @@ const cardsData = [
   },
   {
     image: '/INIAD-ts.png',
-    githubUrl: null,
+    githubUrl: 'https://github.com/g-Ratie/bun-iniadtsbot',
     title: 'INIAD.ts 入退室管理システム',
     description:
       'サークル入退室などを管理するためのDiscord Bot。サークルの活動場所であるオフィスの入室・退室を記録するために、サークルのDiscord上で動くBot(3代目)',
@@ -78,7 +78,7 @@ const cardsData = [
   },
   {
     image: '/AuralRx.png',
-    githubUrl: null,
+    githubUrl: 'https://github.com/INIAD-ts/AuralRx',
     title: 'AuralRx',
     description:
       '技育CAMPキャラバンハッカソン@東京で開発した、ヘルスケアデータの活動履歴からその日を振り返るプレイリストを作成するアプリケーション',
