@@ -1,4 +1,4 @@
-import { Card, Image, Text, Group, Badge, Button, ActionIcon } from '@mantine/core';
+import { Card, Image, Text, Group, Badge, ActionIcon } from '@mantine/core';
 import { FaGithub } from 'react-icons/fa';
 import classes from './ProductCard.module.css';
 
@@ -45,9 +45,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({
       </div>
 
       <Group mt="xs" style={{ justifyContent: 'flex-end' }}>
-        <Button radius="md" style={{ flex: 1 }}>
+        {/* <Button disabled radius="md" style={{ flex: 1 }}>
           Show details
-        </Button>
+        </Button> */}
         {githubUrl && (
           <ActionIcon
             component="a"
