@@ -9,7 +9,7 @@ const myActivity = {
       title: '技育CAMP2024 マンスリーハッカソン Vol.8 (サポーターズ主催)',
       content:
         '青空文庫の小説に挿絵・VOICEVOXによる読み上げを追加して楽しめるアプリケーションを開発しました',
-      date: '2024/04',
+      date: '2024/07',
       isprize: true,
     },
     {
