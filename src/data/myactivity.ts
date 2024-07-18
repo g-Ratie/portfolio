@@ -6,14 +6,14 @@ const myActivity = {
       date: '2024/03 ~ 現在',
     },
     {
-      title: '技育CAMP2024 マンスリーハッカソン Vol.8 (サポーターズ主催)',
+      title: '【受賞】技育CAMP2024 マンスリーハッカソン Vol.8 (サポーターズ主催)',
       content:
         '青空文庫の小説に挿絵・VOICEVOXによる読み上げを追加して楽しめるアプリケーションを開発しました',
       date: '2024/07',
       isprize: true,
     },
     {
-      title: '技育CAMP2024 マンスリーハッカソン Vol.4 (サポーターズ主催)',
+      title: '【受賞】技育CAMP2024 マンスリーハッカソン Vol.4 (サポーターズ主催)',
       content:
         'Webサイト上の日時をワンクリックでGoogleカレンダーに追加できるChrome拡張機能を開発しました。',
       date: '2024/04',
@@ -26,7 +26,7 @@ const myActivity = {
       date: '2024/02',
     },
     {
-      title: 'ゆるふわLT大会 (サポーターズ主催)',
+      title: '【受賞】ゆるふわLT大会 (サポーターズ主催)',
       content: '大学のシラバスを検索するRAGアプリケーションについてのLTを行い、賞を受賞しました。',
       date: '2023/08',
       isprize: true,
