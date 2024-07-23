@@ -17,7 +17,7 @@ type TimelineProps = {
 const ActivityTimeline = ({ timeline }: TimelineProps) => {
   return (
     <>
-      <h2>今までの主な活動</h2>
+      <h2 id="activity">今までの主な活動</h2>
       <Timeline active={0} bulletSize={32} lineWidth={2}>
         {timeline.map((item, index) => (
           <Timeline.Item
