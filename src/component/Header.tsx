@@ -1,8 +1,7 @@
-import React from 'react';
-import styles from './Header.module.css';
-import { LinkIcon } from './LinkIcon';
 import { FaFileCode, FaHome, FaUser } from 'react-icons/fa';
+import styles from './Header.module.css';
 import Link from './Link';
+import { LinkIcon } from './LinkIcon';
 
 const Header = () => {
   return (

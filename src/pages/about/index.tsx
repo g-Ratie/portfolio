@@ -1,9 +1,9 @@
 import React from 'react';
 import Title from '../../component/Title';
-import Layout from '../../layouts/Layout';
 import Content from '../../component/about/Section';
 import ActivityTimeline from '../../component/timeline/Timeline';
 import myActivity from '../../data/myactivity';
+import Layout from '../../layouts/Layout';
 
 const App: React.FC = () => {
   return (

@@ -1,9 +1,9 @@
-import React from 'react';
-import Title from '../../component/Title';
-import Layout from '../../layouts/Layout';
-import { ProductCard } from '../../component/ProductCard';
 import { SimpleGrid } from '@mantine/core';
+import React from 'react';
+import { ProductCard } from '../../component/ProductCard';
+import Title from '../../component/Title';
 import cardsData from '../../data/myProduct';
+import Layout from '../../layouts/Layout';
 
 const App: React.FC = () => {
   return (

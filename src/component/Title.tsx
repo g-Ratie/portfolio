@@ -1,6 +1,5 @@
-import React from 'react';
-import styles from './Title.module.css';
 import DotDivider from './DotDivider';
+import styles from './Title.module.css';
 
 type TitleProps = {
   title: string;

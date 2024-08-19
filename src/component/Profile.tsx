@@ -1,8 +1,7 @@
-import React from 'react';
-import styles from './Profile.module.css';
-import Link from './Link';
-import { FaUser, FaFileCode, FaTwitter, FaGithub } from 'react-icons/fa';
+import { FaFileCode, FaGithub, FaTwitter, FaUser } from 'react-icons/fa';
 import DotDivider from './DotDivider';
+import Link from './Link';
+import styles from './Profile.module.css';
 
 const Profile = () => {
   return (

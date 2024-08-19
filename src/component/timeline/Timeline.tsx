@@ -1,6 +1,4 @@
-import React from 'react';
-import { Title } from '@mantine/core';
-import { Timeline, Text } from '@mantine/core';
+import { Text, Timeline, Title } from '@mantine/core';
 import { FaTrophy } from 'react-icons/fa';
 
 type Timeline = {

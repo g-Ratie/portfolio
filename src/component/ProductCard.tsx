@@ -1,4 +1,4 @@
-import { Card, Image, Text, Group, Badge, ActionIcon } from '@mantine/core';
+import { ActionIcon, Badge, Card, Group, Image, Text } from '@mantine/core';
 import { FaGithub } from 'react-icons/fa';
 import classes from './ProductCard.module.css';
 
