@@ -1,4 +1,4 @@
-import { Text, Timeline, Title } from '@mantine/core';
+import { Text, ThemeIcon, Timeline, Title } from '@mantine/core';
 import { FaTrophy } from 'react-icons/fa';
 
 type Timeline = {
@@ -19,7 +19,13 @@ const ActivityTimeline = ({ timeline }: TimelineProps) => {
       <Timeline active={0} bulletSize={32} lineWidth={2}>
         {timeline.map((item, index) => (
           <Timeline.Item
-            bullet={item.isprize ?? false ? <FaTrophy style={{ color: '#ffffff' }} /> : null}
+            bullet={
+              item.isprize ?? false ? (
+                <ThemeIcon color="white" radius="xl">
+                  <FaTrophy style={{ color: '#e6b422' }} />
+                </ThemeIcon>
+              ) : null
+            }
             key={index}
             title={<Title order={4}>{item.title}</Title>}
           >
