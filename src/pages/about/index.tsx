@@ -20,7 +20,7 @@ const App: React.FC = () => {
             text: 'TypeScript / React / Next.js / Bun / CloudFlare Workers / GitHub Actions',
           },
           {
-            title: '好き',
+            title: '直近で面白かったもの',
             text: 'キーボード, ガジェット, アイドルマスター(シャニマス | 学マス), 少女☆歌劇 レヴュースタァライト',
           },
         ]}
