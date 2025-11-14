@@ -12,7 +12,7 @@ const Profile = () => {
         <h3 className={styles.heading}>I&apos;m ratie!</h3>
         <span className={styles.description}>つくったもの・やったこととか</span>
         <div className={styles.social}>
-          <a href="https://twitter.com/ratie_iniad" className={styles.socialLink}>
+          <a href="https://twitter.com/ratie_dev" className={styles.socialLink}>
             <FaTwitter size={24} />
           </a>
           <a href="https://github.com/g-ratie" className={styles.socialLink}>
